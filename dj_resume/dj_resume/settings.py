@@ -66,7 +66,6 @@ TEMPLATES = [
     },
 ]
 
-
 WSGI_APPLICATION = 'dj_resume.wsgi.application'
 
 # Database
