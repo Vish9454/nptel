@@ -1,4 +1,5 @@
 {% load static %}
+{% static "assets/img/about" as baseUrl %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,8 +26,6 @@
     <link rel="stylesheet" type="text/css" href="{% static 'assets/css/main.css' %}">
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="{% static 'assets/css/responsive.css' %}">
-
-    <script src="{% static 'data/getData.js' %}" > </script>
 
 
 </head>
@@ -102,10 +101,10 @@
                     <div class="col-md-12 col-sm-12 text-center">
                         <div class="contents">
                             <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
-                            <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Vishal Singh</h2>
+                            <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">{{home1.name}}</h2>
                             <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                                 <li>
-                                    <a class="facebook" target="_blank" href='https://www.facebook.com/vish2222'><i class="icon-social-facebook"></i></a>
+                                    <a class="facebook" target="_blank" href={{home1.fblink}}><i class="icon-social-facebook"></i></a>
                                 </li>
                                 <!--
                                 <li>
@@ -119,7 +118,7 @@
                                 </li>
                                 -->
                                 <li>
-                                    <a class="google" href="mailto: vish9454@gmail.com?subject=Resume Tesing&body=Hi Vishal, It is Testing"><i class="icon-social-google"></i></a>
+                                    <a class="google" target="_blank" href={{home1.gmail}}><i class="icon-social-google"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -138,24 +137,22 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-                        <img class="img-fluid" src="{% static "assets/img/about/vishal.jpg" %}" alt="">
+                        <img class="img-fluid" src="{{baseUrl}}/{{about1.img}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
                         <h3>Hello All!</h3>
-                        <p>Seeking a challenging opportunity in a dynamic environment where innovation, education and sense of ownership are valued and encouraged. Goal oriented,highly motivated with a strong orientation to put my best into the job allocated.
-                            Ability to gel with people and work in a team. Confident and poised in interactions with individuals of all levels. Very curious to know things. Charismatic personality. Respects seniors and good helping nature. Interested
-                            in growth of company.</p>
+                        <p>{{about1.description}}</p>
                         <div class="about-profile">
                             <ul class="admin-profile">
-                                <li><span class="pro-title"> Name </span> <span class="pro-detail">Vishal Singh</span></li>
-                                <li><span class="pro-title"> Age </span> <span class="pro-detail">27 Years</span></li>
-                                <li><span class="pro-title"> Experience </span> <span class="pro-detail">2 Years</span></li>
-                                <li><span class="pro-title"> Country </span> <span class="pro-detail">India</span></li>
-                                <li><span class="pro-title"> Location </span> <span class="pro-detail">Gurugram,Haryana</span></li>
-                                <li><span class="pro-title"> e-mail </span> <span class="pro-detail">vish9454@gmail.com</span></li>
-                                <li><span class="pro-title"> Phone </span> <span class="pro-detail">+91 9205725487</span></li>
+                                <li><span class="pro-title"> Name </span> <span class="pro-detail">{{about2.name}}</span></li>
+                                <li><span class="pro-title"> Age </span> <span class="pro-detail">{{about2.age}}</span></li>
+                                <li><span class="pro-title"> Experience </span> <span class="pro-detail">{{about2.exp}}</span></li>
+                                <li><span class="pro-title"> Country </span> <span class="pro-detail">{{about2.country}}</span></li>
+                                <li><span class="pro-title"> Location </span> <span class="pro-detail">{{about2.location}}</span></li>
+                                <li><span class="pro-title"> e-mail </span> <span class="pro-detail">{{about2.email}}</span></li>
+                                <li><span class="pro-title"> Phone </span> <span class="pro-detail">{{about2.phone}}</span></li>
                                 <li><img src="{% static "assets/img/about/design.png" %}"></li>
                             </ul>
                         </div>
