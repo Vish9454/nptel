@@ -21,3 +21,25 @@ class AboutMe2:
     location: str
     email: str
     phone: str
+
+
+class TabCount:
+    tabcount: int
+
+
+class WhatIknow:
+    tab: str
+    content: str
+
+
+class Education:
+    qualify_name: str
+    qualify_yr: str
+    qualify_percent: str
+    qualify_board = str
+
+
+class Experience:
+    designation: str
+    exp_count: str
+    work_in_exp: str
