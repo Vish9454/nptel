@@ -7,7 +7,7 @@ class Tree:
         else:
             self.left=None
             self.right=None
-        return ()
+        return
     def isempty(self):
         return (self.value==None)
 
@@ -85,5 +85,10 @@ class Tree:
     def __str__(self):
         return (str(self.inorder()))
 
+t=Tree()
+for i in [1,3,3,18,7,5,4,22,14]:
+    t.insert(i)
+print(t)
 
-
+t.delete(3)
+print(t)

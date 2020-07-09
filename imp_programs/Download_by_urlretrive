@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Vishal Singh Resume</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+                    <a href="index.html" class="navbar-brand"><img src="assets/img/logo_header.png" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">
+                  About
+                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">
+                  What I know
+                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">
+                  Education  and  Experience
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Start -->
+            <ul class="onepage-nev mobile-menu">
+                <li>
+                    <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">about</a>
+                        </li>
+                        <li>
+                            <a href="#services">What I know</a>
+                        </li>
+                        <li>
+                            <a href="#resume">Education   and  Experience</a>
+                    </ul>
+                    <!-- Mobile Menu End -->
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Hero Area Start -->
+        <div id="hero-area" class="hero-area-bg">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <div class="contents">
+                            <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
+                            <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Vishal Singh</h2>
+                            <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                                <li>
+                                    <a class="facebook" href="https://www.facebook.com/vish2222"><i class="icon-social-facebook"></i></a>
+                                </li>
+                                <!--
+                                <li>
+                                    <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="linkedin" href="#"><i class="icon-social-linkedin"></i></a>
+                                </li>
+                                -->
+                                <li>
+                                    <a class="google" href="mailto: vish9454@gmail.com?subject=Resume Tesing&body=Hi Vishal, It is Testing"><i class="icon-social-google"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+                        <img class="img-fluid" src="assets/img/about/vishal.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+                        <h3>Hello All!</h3>
+                        <p>Seeking a challenging opportunity in a dynamic environment where innovation, education and sense of ownership are valued and encouraged. Goal oriented,highly motivated with a strong orientation to put my best into the job allocated.
+                            Ability to gel with people and work in a team. Confident and poised in interactions with individuals of all levels. Very curious to know things. Charismatic personality. Respects seniors and good helping nature. Interested
+                            in growth of company.</p>
+                        <div class="about-profile">
+                            <ul class="admin-profile">
+                                <li><span class="pro-title"> Name </span> <span class="pro-detail">Vishal Singh</span></li>
+                                <li><span class="pro-title"> Age </span> <span class="pro-detail">27 Years</span></li>
+                                <li><span class="pro-title"> Experience </span> <span class="pro-detail">2 Years</span></li>
+                                <li><span class="pro-title"> Country </span> <span class="pro-detail">India</span></li>
+                                <li><span class="pro-title"> Location </span> <span class="pro-detail">Gurugram,Haryana</span></li>
+                                <li><span class="pro-title"> e-mail </span> <span class="pro-detail">vish9454@gmail.com</span></li>
+                                <li><span class="pro-title"> Phone </span> <span class="pro-detail">+91 9205725487</span></li>
+                                <li><img src="assets/img/about/design.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+
+
+
+
+
+
+
+    <!-- Services Section Start -->
+    <section id="services" class="services section-padding">
+
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I know</h2>
+        <link href="jquerysctipttop.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <script src="jquery-2.1.4.min.js"></script>
+        <script src="jquery_tab.js" type="text/javascript"></script>
+        <link href="tab.css/style_tab.css" rel="stylesheet" type="text/css" />
+        <div class="tabs">
+            <div class="tabs-header">
+                <div class="border"></div>
+                <ul>
+                    <li class="active">
+                        <a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#434c54">Python</a>
+                    </li>
+                    <li>
+                        <a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#434c54">Linux</a>
+                    </li>
+                    <li>
+                        <a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#434c54">Javascript/HTML/CSS/JQuery</a>
+                    </li>
+                    <li>
+                        <a href="#tab-4" tab-id="4" ripple="ripple" ripple-color="#434c54">Postgresql</a>
+                    </li>
+                </ul>
+                <nav class="tabs-nav">
+                    <i id="prev" ripple="ripple" ripple-color="#434c54" class="material-icons">&#xE314;</i>
+                    <i id="next" ripple="ripple" ripple-color="#FFF" class="material-icons">&#xE315;</i>
+                </nav>
+            </div>
+            <div class="tabs-content">
+                <div tab-id="1" class="tab active">
+
+                    Functions and OOPS related programming.
+                    <br />Global and Globals ,Recursions ,Lambda function ,Decorators ,constructors ,getters and setters.
+                    <br />Concepts like inner classes ,defunctions under functions. Inheritance and its types(MRO).Constructors in inheritance.
+                    <br />Polymorhism and its types-(Duck typing,Operator Overloading,Method Overloading,Method overridding)
+                    <br />Abstract classes and methods in python.
+                    <br />Difference between array and list. .Designing List as a Linked List in python. 
+                    <br />Generators and Iterators in Python .List comprehensions, Numpy in python.
+                    <br />File Handling in python. Patterns in python.
+                    <br />Multithreading in python.Thread Synchronization(Lock Sync,R lock, Bounded Semaphore).Thread Communcation with event,wait,set,clear. DeamonThreads.
+                    <br />Python Connections with mysql,Postgresql. And setting up queries to deliver it to clients.(fetchall(), fetchmany(), fetchone()).
+                    <br />Big 0 Notations and the time complexity.The time module,join statements.
+                    <br />Searching and sorting technique as Binary Search ,Selection sort, Insertion sort , Merge Sort ,Quick Sort, Heap Sort.
+                    <br />Binary Search Tree dynamically sorted <br />Django and the making the making of site dynamic as a beginner.
+                    <br />Data frames concept Data Science related skills like Pandas,Matrix,Matplotlib.pylab.
+                    <br />The Scatter plot,Bar plot,Histogram ,Box and Whiskers plot,Pairwise plot.
+                    <br />Dealing with missing data in dataframe. Matimatical conceptsas Matrices, correlation (pearsons,spearman, kendall’s rank) ,probability.<br /><br />
+                   
+
+                </div>
+                <div tab-id="2" class="tab">
+                    <ul>
+                        <li>How to install and server setup Linux</li>
+                        <li>Manage local Linux users and Groups and there password mechanism</li>
+                        <li>Control access to files with Linux file system permission-Security reasons</li>
+                        <li>Moniter and manage Linux processes.Control services and deamons</li>
+                        <li>Accessing Linux file systems-access and inspect file system</li>
+                        <li>Installing and using Virtualized systems.</li>
+                        <li>Create and edit files with vim.Process Management by top, ps and Use regular expressions with grep</li>
+                        <li>Creating YUM Repository and installing Packages via YUM</li>
+                        <li>Zip ans Unzipping of a file and usage of Tar</li>
+                        <li>Bash Scripting(Shell Programming ,KSH horn Shell ,BASH-Bourne Again Shell)</li>
+                        <li>Usage of Cron for Scheduling jobs</li>
+                        <li>SELinux (Permission, Disabled, Enforcing)</li>
+                        <li>LVM(Logical Volume Management)</li>
+                    </ul>
+                    <br>
+                </div>
+                <div tab-id="3" class="tab">
+                    HTML forms and its types,uploading image,div,class,span,frames.<br> Flexbox and Grid level separation of UI by CSS<br> Animations,hovering in CSS<br> Developing DOM based interactive directory structure diagram<br> Using Material UI
+                    for graphics<br> Ability to design web pages and handle CSS and Javascript code<br> Worked on various website project for Resume portfolio.<br> DOM in javascript(Document Object Model)<br> if else,sitch case statement , for , while
+                    loop, functions<br> Merging javascript with HTML coding with documentgetElementById,Events in JavaScript<br> Regex,Quantifiers,Literal Characters in JavaScript<br> Events,Effects in JQuery<br> Console logs inquiries.<br><br>
+                </div>
+                <div tab-id="4" class="tab">
+                    Well versed withe the queries like select,join,group by and getting the data as required<br> Troubleshooting and testing the Application locally on Linux environment and DBMS as Postgresql.
+                    <br /> Responsible for all backup, recovery, and upgrading of all of the PostgreSQL databases.<br /> Monitoring databases to optimize database performance and diagnosing any issues.<br /> Implement data models, database designs, data
+                    access, table maintenance and code changes together with our development team. <br /> Implement and monitor replication for high availability and disaster recovery scenarios.<br /> Review new database schema changes.
+                    <br /> Performing schema management, database sizing, maintaining privileges.<br /> Interacting with client for there requirement<br /> Occupied with the deployment and support programme for different projects to modify the changes
+                    as per requirement of the client.<br>Installing and monitoring PostgreSQL database using the standard monitoring tools like Zabbix.<br>Maintaining the database health by creating own checklist<br><br>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Education/Experience Section Start -->
+    <div id="resume" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="education wow fadeInRight" data-wow-delay="0.3s">
+                        <ul class="timeline">
+                            <li>
+                                <i class="icon-graduation"></i>
+                                <h2 class="timelin-title">Education</h2>
+                            </li>
+                            <li>
+                                <div class="content-text">
+                                    <h3 class="line-title">B.TECH , JSS (Noida)</h3>
+                                    <span>2013 - 2017</span>
+                                    <p class="line-text">From UPTU board </p>
+                                    <p class="line-text">Got Agrregate percentage of 72% in graduation</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-text">
+                                    <h3 class="line-title">Holy Cross School, Ballia </h3>
+                                    <span>2010 - 2012</span>
+                                    <p class="line-text">From ICSE Board </p>
+                                    <p class="line-text">Got Agrregate percentage of 79% in Class 12<sup>th</sup></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content-text">
+                                    <h3 class="line-title">Holy Cross School, Ballia</h3>
+                                    <span>2008 - 2010</span>
+                                    <p class="line-text"> From ICSE Board</p>
+                                    <p class="line-text">Got Agrregate percentage of 86% in Class 10<sup>th</sup></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+                        <ul class="timeline">
+                            <li>
+                                <i class="icon-briefcase"></i>
+                                <h2 class="timelin-title">Experience</h2>
+                            </li>
+                            <li>
+                                <div class="content-text">
+                                    <h3 class="line-title">In Ameyo Soft Solutions as Product Engineer</h3>
+                                    <span><strong>October 2018 - Present</strong></span>
+                                    <p class="line-text"></p>
+                                </div>
+                                <li>Proved worth in many projects with clients such as OLX ,Byjus ,Bluecloud ,Lovely Professional University(LPU),Finnew Pvt Ltd ,Petroleum University,Myntra,India bulls,Equitas bank,Magic Bricks, Royal Bank of Scotland and
+                                    manymore.
+                                </li>
+                                <li>Have made bash scripts for clients to make work easier and also gave helping hand in debugging for services modules.
+                                </li>
+                                <li>Embraced with basics of Applications testing and and its usage.</li>
+                                <li>A sense of urgency ,commitment and focus on the right priorities to develop solutions on timely basis.</li>
+                                <li>An effective communicator with technical ,reasoning and analytical skills.</li>
+                                <li>Setting the server up frm scratch to finally handing it to client .</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Education/Experience Section End -->
+
+
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+        <i class="icon-arrow-up"></i>
+    </a>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

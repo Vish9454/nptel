@@ -1,32 +1,29 @@
-# list vs tuple
+import os
+print(os.stat("/home/django_resume/nptel_py/rough.py"))
+
+
+print("WQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ")
+import os
+list = os.listdir("/home/django_resume") # dir is your directory path
+number_files = len(list)
+print(list) # displays all the files and folders in the directory
+print(number_files) # displays no of files and folders in the directory
+
+#Only files (avoiding subdirectories) in that particular directory
+#os.walk retrns 3 values i.e
+# [0] as root dir , [1] as directory in that folder ,[2] as files in that directory
+onlyfiles = next(os.walk("/home/django_resume"))[2]
+print(onlyfiles)
+
+print("#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+import os
+for root,dirs,files in os.walk("/home/django_resume"):
+    for filename in files:
+        print(filename)
+print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 import sys
-import time as t
-from timeit import timeit
-import numpy as n
-tuple_names = (1, 2, 3)
-list_names = ['Nicholas', 'Michelle', 'Alex']
-num_names=n.array(['Nicholas', 'Michelle', 'Alex'])
-
-print(sys.getsizeof(tuple_names),"tuple")
-print(sys.getsizeof(list_names),"list")
-print(sys.getsizeof(num_names),"numpy")
-################################################################################
-sum1,sum2,sum3=0,0,0
-s1=t.time()
-for i in range(tuple_names):
-    print(i)
-e1=t.time()
-print((e1-s1)*1000,"for tuple")
-
-s2=t.time()
-for i in range(list_names):
-    sum2=sum2+i
-e2=t.time()
-print((e2-s2)*1000,"for list")
-
-s3=t.time()
-for i in range(num_names):
-    sum3=sum3+i
-e3=t.time()
-print((e3-s3)*1000,"for numpy")
-
+print(sys.argv)
+import os
+f=open("rough.py","r")
+text=f.read()
+print(text)
