@@ -1,0 +1,16 @@
+def sockMerchant(n, ar):
+    dict={};count=0
+    for items in ar:
+        if items in dict:
+            dict[items]+=1
+        else:
+            dict[items]=1
+    sum=[];x=0
+    for key,item in dict.items():
+        sum.append(item//2)
+    for i in range(len(sum)):
+        x+=sum[i]
+    return x
+n=9
+ar=[10,20,20,10,10,30,50,10,20]
+sockMerchant(n,ar)
