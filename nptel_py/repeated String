@@ -1,0 +1,16 @@
+def repeatedString(s, n):
+    count=0;repeated_count=0;remainder_count=0
+    repeated_count=n//len(s)
+    remainder_count=n%len(s)
+    for i in range(len(s)):
+        if s[i] == 'a':
+            count += 1
+    count=count*repeated_count
+    for i in range(remainder_count):
+        if s[i]=='a':
+            count+=1
+    return count
+'''
+print(repeatedString("aba",18))
+'''
+print(repeatedString("kmretasscityylpdhuwjirnqimlkcgxubxmsxpypgzxtenweirknjtasxtvxemtwxuarabssvqdnktqadhyktagjxoanknhgilnm",736778906400))
