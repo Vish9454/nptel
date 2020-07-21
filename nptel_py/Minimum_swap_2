@@ -1,0 +1,25 @@
+def minimumSwaps(arr):
+    counter=0
+    temp=[0]*len(arr)     #enumerate(iterable,start)#start is a number
+
+    for index,value in enumerate(arr):#enumerate() function takes a collection(e.g a tuple) and returns it as enumarate object
+        temp[value-1]=index           # enumerate() function adds a counter as the key of enumerate object
+
+    print("temp=",temp)
+    print()
+    for i in range(len(arr)):
+        if arr[i]!=i+1:
+            t=temp[i]
+            print("t=temp[i]=",t," i=",i," arr[t]=",arr[t]," arr[i]=",arr[i])
+            arr[i],arr[temp[i]]=i+1,arr[i]
+            print("arr=",arr," temp=",temp," temp[i]=",temp[i],"arr[t]=",arr[t],"temp[arr[t]-1]=",temp[arr[t]-1])
+            temp[i],temp[arr[t]-1]=i,t
+            print("After chang---->","arr=", arr, " temp=", temp, " temp[i]=", temp[i], "arr[t]=", arr[t], "temp[arr[t]-1]=",
+                  temp[arr[t] - 1])
+            print(arr)
+            print()
+            counter+=1
+    return counter
+print(minimumSwaps([4,3,1,2]))
+
+'''[2,31,1,38,29,5,44,6,12,18,39,9,48,49,13,11,7,27,14,33,50,21,46,23,15,26,8,47,40,3,32,22,34,42,16,41,24,10,4,28,36,30,37,35,20,17,45,43,25,19]'''
