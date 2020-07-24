@@ -1,0 +1,17 @@
+'''
+def checkMagazine(magazine, note):
+    magazine=list(magazine)
+    count=0
+    if len(note)>len(magazine):
+        print("No")
+    else:
+        for i in range(len(note)):
+            if note[i] in magazine:
+                count+=1
+                magazine.remove(note[i])
+            else:
+                print("No")
+                break
+        if count==len(note):
+            print("Yes")
+'''
