@@ -1,0 +1,10 @@
+def twoStrings(s1, s2):
+    flag=0
+    for i in range(len(s1)):
+        if s1[i] in s2:
+            flag=0
+            return ("YES")
+        else:
+            flag=1
+    if flag==1:
+        return ("NO")
