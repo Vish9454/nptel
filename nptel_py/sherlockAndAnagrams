@@ -1,3 +1,23 @@
+from collections import Counter
+def sherlockAndAnagrams(s):
+    n = len(s);lst_full=[];sum=0
+    for i in range(0,n+1):
+        for j in range(i+1,n+1):
+            lst_full.append(''.join(sorted(s[i:j])))
+    print(lst_full)
+    n=Counter(lst_full)
+    print(n)
+    for key,value in n.items():
+        sum+=value*(value-1)//2   #permuttion lagana hai yaaha per becoz the count of each letter is given
+    print(sum)
+
+sherlockAndAnagrams("kkkk")
+
+['k', 'kk', 'kkk', 'kkkk', 'k', 'kk', 'kkk', 'k', 'kk', 'k']
+Counter({'k': 4, 'kk': 3, 'kkk': 2, 'kkkk': 1})
+10
+
+###############################################################################################################################################
 def sherlockAndAnagrams(s):
         res=0
         n=len(s)
