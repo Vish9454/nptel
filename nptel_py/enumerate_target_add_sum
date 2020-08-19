@@ -1,5 +1,19 @@
 nums = [2, 7, 11, 15]; target = 9
 
+nums = [2, 7, 11, 15];
+target = 17
+
+def hello(nums,target):
+    dict={}
+    for i in range(len(nums)):
+        com=target-nums[i]
+        if com in dict:
+            print([dict[com],i])
+        dict[nums[i]]=i
+hello(nums,target)
+
+#########################################################
+
 class Solution:
     def twoSum( nums, target):
         seen = {}
@@ -16,6 +30,10 @@ class Solution:
 
 obj=Solution
 print(obj.twoSum(nums,target))
+
+
+
+
 '''
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
