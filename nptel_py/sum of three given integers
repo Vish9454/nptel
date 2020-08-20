@@ -1,0 +1,10 @@
+#Write a Python program to sum of three given integers. However, if two values are equal sum will be zero.
+z=123467855;j=0;p=[]
+for i in str(z):
+    if i in p:
+        j=0
+        break
+    else:
+        p.append(i)
+        j=j+int(i)
+print(j)
