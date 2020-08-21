@@ -1,0 +1,7 @@
+from collections import Counter
+dict={}
+s="This is a string"
+dict=Counter(s)
+
+print(dict)
+print(s.count("s"))
