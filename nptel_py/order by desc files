@@ -1,0 +1,6 @@
+import glob
+import os
+
+files = glob.glob("*")        # * is a regular expression
+files.sort(key=os.path.getmtime)
+print("\n".join(files))       #join nai lagta toh list return hota , join with ne line hai  "\n".join(files) iska mtlb
