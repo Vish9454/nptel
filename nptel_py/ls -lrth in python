@@ -1,0 +1,30 @@
+from stat import S_ISREG, ST_CTIME, ST_MODE
+import os, sys, time
+
+#Relative or absolute path to the directory
+dir_path = sys.argv[1] if len(sys.argv) == 2 else r'.'
+
+#all entries in the directory w/ stats
+data = (os.path.join(dir_path, fn) for fn in os.listdir(dir_path))
+data = ((os.stat(path), path) for path in data)
+
+# regular files, insert creation date
+data = ((stat[ST_CTIME], path)
+           for stat, path in data if S_ISREG(stat[ST_MODE]))
+
+for cdate, path in sorted(data):
+    print(time.ctime(cdate), os.path.basename(path))
+    
+#################################################################
+Sat Aug  8 08:08:29 2020 multilevel_inheritanc.py
+Sat Aug  8 08:23:08 2020 yield_func.py
+Sat Aug  8 09:49:46 2020 inner_funcs.py
+Mon Aug 10 13:30:46 2020 set1.questions10set.pdf
+Mon Aug 10 16:00:23 2020 diction_sort.py
+Mon Aug 10 16:07:12 2020 7_dict.py
+Mon Aug 10 16:21:00 2020 8_yield_re_array.py
+Mon Aug 10 16:26:07 2020 10_list_comprehension.py
+Mon Aug 10 16:49:21 2020 init_call_magic.py
+Wed Aug 19 09:40:18 2020 dictiona.py
+Fri Aug 21 10:46:35 2020 rough.py
+###################################################################
