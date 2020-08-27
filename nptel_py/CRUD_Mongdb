@@ -4,8 +4,8 @@ HOST = 'localhost'
 PORT = 27017
 
 client = MongoClient(HOST, PORT)
-database = client.cookbook
-recipes = database.recipes
+database = client.cookbook   #creating database
+recipes = database.recipes   #creating tables
 
 recipe = {'title': 'chocolate milk',
           'description': 'Yummy drink',
@@ -33,3 +33,8 @@ recipes.update_one({'title': 'chocolate milk'},
 print("\nThe updated query is as : ")
 pprint.pprint(recipes.find_one({'author': 'Vishal Singh'}))
 
+
+#DELETION PROCESS
+recipes.delete_one({'author': "Vishal Singh"})
+print("\nAfter deleting the query")
+pprint.pprint(recipes.find_one({'author': 'Vishal Singh'}))
